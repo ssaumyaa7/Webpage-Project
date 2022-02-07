@@ -676,7 +676,7 @@ p.blog-para {
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
-.contact-form .btn{
+.btnnn{
 	background-color: #f1c50e;
     font-size: 17px;
     color: rgb(0, 0, 0);
@@ -684,7 +684,7 @@ p.blog-para {
 	border-radius: 5px;
 	border: none;
 }
-.contact-form .btn:hover, .contact-form .btn:active, .contact-form .btn:focus{
+.btnnn:hover, .btnnn:active, .btnnn:focus{
 	background-color: #ffffff;
 	color: #391440;
 	outline: none;
