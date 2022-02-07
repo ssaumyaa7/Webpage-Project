@@ -888,9 +888,24 @@ p.section-para-alter{
 	.calculator-section, .services-section, .blog-section, .reviews-section, .contact-section, .about-section{
 		padding: 75px 0;
 	}
+	.navv{
+				margin-top:-13px !important;
+				transform: scale(0.9);
+	}
+	.mrg-top{
+		margin-top:25px;	
+	}
 }
 
 @media (max-width: 767px) {
+	.header-title-text{
+		margin-top:20px;
+	}
+	.header-title{
+		font-size: 32px;
+		margin-top:30px;
+		margin-bottom:30px;
+	}
 	.header {
 		background-size: 300%;
 		background-position: top left;
@@ -901,7 +916,30 @@ p.section-para-alter{
 		font-size: 2rem;
 		color: #391440;
 	}
+	.about-sec-marg{
+		display: flex;
+		flex-direction: column;
+	}
+	.about-heading{
+		font-size:30px;
+	}
+	.about-heading >span{
+		font-size: 36px;
+	}
+	.dreams-img{
+		padding:30px;
+	}
+	.fa-bars{
+		transform: scale(0.8);
+	}
+	.navbar-brand-logo > img{
+				padding-top:-10px;
+		transform: scale(0.8);
 
+	}
+	.navv{
+				margin-top:-12px !important;
+	}
 	.navbar-toggler:active,
 	.navbar-toggler:focus {
 		outline: none;
