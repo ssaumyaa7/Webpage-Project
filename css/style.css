@@ -721,7 +721,7 @@ p.blog-para {
 }
 .happen-section{
 	padding: 100px 0;
-	background-color: rgba(0,0,0,0.035);
+	/*background-color: rgba(0,0,0,0.035);*/
 }
 h2.section-heading-happen, h2.section-heading-happen-down{
 	  color: #f1c50e;
@@ -765,7 +765,8 @@ h2.section-heading-happen-down{
 	margin-top:50px;
 }
 .dreams-img > img{
-	transform: scale(1.1);
+	transform: scale(1.01);
+	border-radius: 5px;
 }
 /*===== section ====== */
 h2.section-heading {
@@ -978,4 +979,28 @@ p.section-para-alter{
 		display: inline-block;
 		margin-top: 10px;
 	}
+}
+#career{
+	margin-top:100px; 
+}
+#career-img{
+	transform: scale(1.7);
+}
+.header-container-career {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-left: 0px !important;
+}
+.widthh{
+	width:70%;
+}
+.header-container-career a{
+	color:#3b3b3b;
+	font-size: 16px;
+
+}
+#recruiting{
+	color:#f1c50e;
+	margin-top:90px;
 }
