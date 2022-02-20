@@ -1157,4 +1157,16 @@ p.section-para-alter {
 	.widthh {
 		width: 90%;
 	}
+	.header-container{
+		flex-direction: column-reverse;
+	}
+	.top-img{
+		transform: scale(0.9);
+	}
+	.flexdir{
+		flex-direction: column-reverse;
+	}
+	.happen-para, .learn-more-btn-section, .section-heading-happen, .section-heading-happen-down, .happen-para-down, .learn-more-btn-section-down, .section-heading-alter, .section-para-alter, .contact-para, .contacts, .margin-rec{
+		margin-left:10px !important; 
+	}
 }
